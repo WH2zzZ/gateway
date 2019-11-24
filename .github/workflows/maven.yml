@@ -15,5 +15,5 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn package -Djib.to.auth.username=$USERNAME -Djib.to.auth.password=$PASSWORD -Djib.from.auth.username=$USERNAME -Djib.from.auth.password=$PASSWORD --file pom.xml
+      run: mvn verify -Djib.to.auth.username=$USERNAME -Djib.to.auth.password=$PASSWORD -Djib.from.auth.username=$USERNAME -Djib.from.auth.password=$PASSWORD --file pom.xml
 
