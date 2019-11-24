@@ -16,4 +16,5 @@ public class CommonConstants {
     public static String SPRING_PROFILE_SWAGGER = "swagger";
     public static String SPRING_PROFILE_NO_LIQUIBASE = "no-liquibase";
     public static String SPRING_PROFILE_K8S = "k8s";
+
 }
