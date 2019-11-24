@@ -105,7 +105,7 @@
                         <!--                        </jvmFlags>-->
                         <!--要暴露的端口-->
                         <ports>
-                            <port>9000</port>
+                            <port>8081</port>
                         </ports>
                         <environment>
                             <TZ>Asia/Shanghai</TZ>
