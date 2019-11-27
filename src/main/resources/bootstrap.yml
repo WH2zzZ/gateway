@@ -5,7 +5,10 @@ spring:
     active: default
   cloud:
     config:
-      uri: http://microserver_configurationserver_1:9000/        #Config server的uri
-      profile: dev                       #指定的环境
-      label: master                      #指定分支
+      #Config server的uri
+      uri: http://127.0.0.1:9000/
+      #指定的环境
+      profile: dev
+      #指定分支
+      label: master
 
