@@ -117,7 +117,7 @@
                         <!--                        </jvmFlags>-->
                         <!--要暴露的端口-->
                         <ports>
-                            <port>8081</port>
+                            <port>8761</port>
                         </ports>
                         <environment>
                             <TZ>Asia/Shanghai</TZ>
