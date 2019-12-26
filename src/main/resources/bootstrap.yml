@@ -6,7 +6,7 @@ spring:
   cloud:
     config:
       #Config server的uri
-      uri: http://configurationserver_1:9000/
+      uri: http://127.0.0.1:9000/
       #指定的环境
       profile: default
       #指定分支

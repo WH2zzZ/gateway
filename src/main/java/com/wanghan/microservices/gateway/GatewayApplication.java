@@ -5,6 +5,7 @@ import io.micrometer.core.instrument.util.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,6 +18,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @Slf4j
+@RefreshScope
 @EnableEurekaServer
 @EnableZuulProxy
 @SpringBootApplication
