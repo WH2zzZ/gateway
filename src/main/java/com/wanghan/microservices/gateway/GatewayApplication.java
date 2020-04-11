@@ -19,7 +19,6 @@ import java.util.Collection;
 
 @Slf4j
 @RefreshScope
-@EnableEurekaServer
 @EnableZuulProxy
 @SpringBootApplication
 public class GatewayApplication {
